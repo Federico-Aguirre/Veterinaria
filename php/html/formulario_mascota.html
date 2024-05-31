@@ -1,0 +1,124 @@
+<?php
+include("conexión.php");
+$con = connection();
+
+$sql = "SELECT * FROM mascotas";
+$query = mysqli_query($con, $sql);
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>ABM de Mascotas</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="contenedor-formularios">
+            <ul class="contenedor-tabs">
+                <li class="tab tab-primera"><a href="#agregar-mascota">Agregar Mascota</a></li>
+                <li class="tab tab-segunda"><a href="#editar-borrar-mascota">Editar / Borrar Mascota</a></li>
+                <li class="tab tab-tercera"><a href="#ver-mascotas">Ver Mascotas</a></li>
+                <li class="tab tab-cuarta"><a href="#volver">Volver</a></li>
+            </ul>
+
+            <div class="contenido-tab">   
+                
+                <div id="agregar-mascota">
+                    <h1>Agregar Mascota</h1>
+                    <form action="agregar_mascota.php" method="post">
+                        
+                        <div class="fila-arriba">
+                            <div class="contenedor-input">
+                                <label>Nombre del animal<span class="req">*</span></label>
+                                <input type="text" name="Nombre" required >
+                            </div>
+                            <div class="contenedor-input">
+                                <label>Especie<span class="req">*</span></label>
+                                <input type="text" name="Especie" required>
+                            </div> 
+                        </div>
+                        <br>
+                        <div class="fila-arriba">
+                            <div class="contenedor-input">
+                                <label>Raza<span class="req">*</span></label>
+                                <input type="text" name="Raza" required>
+                            </div>
+                            <div class="contenedor-input">
+                                <label>Sexo<span class="req">*</span></label>
+                                <input type="text" name="Sexo" required>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="fila-arriba">
+                            <div class="contenedor-input">
+                                <label>Edad<span class="req">*</span></label>
+                                <input type="number" name="Edad" required>
+                            </div>
+                            <div class="contenedor-input">
+                                <label>Nro. de microchip<span class="req"></span></label>
+                                <input type="text" name="Nro_de_microchip">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="contenedor-input">
+                            <label>Vacuna antirrábica<span class="req">*</span></label>
+                            <input type="text" name="Vacuna_antirrábica" required>
+                        </div>
+                        <br>
+                        <div class="contenedor-input">
+                            <label>Tratamiento antiparasitario<span class="req"></span></label>
+                            <input type="text" name="Tratamiento_antiparasitario">
+                        </div>
+                        <br>
+                        <div class="contenedor-input">
+                            <label>Otras vacunas<span class="req">*</span></label>
+                            <input type="text" name="Otras_vacunas" required>
+                        </div>
+                        <br>
+                        <div class="contenedor-input">
+                            <label>Información adicional<span class="req"></span></label>    
+                            <input type="text" name="Información_adicional">
+                        </div>
+                        <br><br><br>
+                        <input type="submit" class="button button-block" value="Guardar">
+                    </form>
+                </div>
+
+                <div id="editar-borrar-mascota">
+                    <h1>Editar / Borrar Mascota</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Especie</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php while ($row = mysqli_fetch_array($query)): ?>
+                            <tr>
+                                <th><?= $row['Nombre'] ?></th>
+                                <th><?= $row['Especie'] ?></th>
+                                <th><a href="actualizar_mascota.php?id=<?= $row['Id'] ?>">Editar</a></th>
+                                <th><a href="borrar_mascota.php?id=<?= $row['Id'] ?>">Borrar</a></th>
+                            </tr>
+                            <?php endwhile; ?>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="ver-mascotas">
+                    <h1>Ver Mascotas</h1>
+                </div>
+
+                <div id="volver">
+                    <a href="index.php"><h1>Volver</h1></a>
+                </div>
+
+            </div>
+        </div>
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+    </body>
+</html>
