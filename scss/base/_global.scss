@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif, serif, 'Times New Roman', Times;
+    background-color: $gris;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.seccion {
+    margin-top: 10vh;
+}
+
+.linea {
+    display: grid;
+    padding: 1px 30%;
+    margin: 30px 0;
+    background-color: $verde;
+}

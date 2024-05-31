@@ -1,0 +1,159 @@
+[
+    {
+        "id": 7,
+        "imagen": "../imagenes/stock de productos/alimentos/producto 7.jpg",
+        "descripcion": "Alimento Dogpro Dog Pro Perro para perro adulto todos los tamaños sabor mix en bolsa de 20 kg",
+        "precio": "$ 42.595",
+        "stock": "1943",
+        "caracteristicas": [
+            "Tipo de envase: Bolsa",
+            "Recomendado para perro adulto.",
+            "Formulado para todos los tamaños.",
+            "Comida seca.",
+            "Sabor: mix."
+        ]
+    },
+    {
+        "id": 10,
+        "imagen": "../imagenes/stock de productos/alimentos/producto 10.jpg",
+        "descripcion": "Alimento Para Peces Agua Fria Tetra Goldfish 200gr Escamas",
+        "precio": "$ 27.118",
+        "stock": "5143",
+        "caracteristicas": [
+            "Marca: Tetra",
+            "Modelo: Goldfish Flakes",
+            "Formato de venta: Unidad",
+            "Peso de la unidad: 200 g"
+        ]
+    },
+    {
+        "id": 26,
+        "imagen": "../imagenes/stock de productos/alimentos/kitten.jpg",
+        "descripcion": "Excelent Kitten alimento para gato de temprana edad sabor pollo y arroz de 1 kg.",
+        "precio": "$ 7.870",
+        "stock": "5156",
+        "caracteristicas": [
+            "Especialmente diseñado para gatitos en etapa temprana",
+            "Bolsa de 1 kg de alimento seco fácil de almacenar", 
+            "Delicioso sabor a pollo y arroz que encantará a tu gato",
+            "Fabricado por Purina, marca de confianza"
+        ]
+    },
+    {
+        "id": 27,
+        "imagen": "../imagenes/stock de productos/alimentos/kitten.jpg",
+        "descripcion": "Excelent Kitten alimento para gato de temprana edad sabor pollo y arroz de 7.5 kg.",
+        "precio": "$ 43.810",
+        "stock": "5323",
+        "caracteristicas": [
+            "Especialmente diseñado para gatitos en etapa temprana",
+            "Bolsa de 7.5 kg para mayor duración", 
+            "Delicioso sabor a pollo y arroz que encantará a tu gato",
+            "Fabricado por Purina, marca de confianza"
+        ]
+    },
+    {
+        "id": 28,
+        "imagen": "../imagenes/stock de productos/alimentos/gato.jpg",
+        "descripcion": "Excelent Adult alimento para gato adulto sabor pollo y arroz de 1 kg.",
+        "precio": "$ 7.800",
+        "stock": "3344",
+        "caracteristicas": [
+            "Recomendado para gato adulto",
+            "Bolsa de 1 kg de alimento seco fácil de almacenar", 
+            "Delicioso sabor a pollo y arroz que encantará a tu gato",
+            "Fabricado por Purina, marca de confianza"
+        ]
+    },
+    {
+        "id": 29,
+        "imagen": "../imagenes/stock de productos/alimentos/gato.jpg",
+        "descripcion": "Excelent Adult alimento para gato adulto sabor pollo y arroz de 7.5 kg.",
+        "precio": "$ 40.400",
+        "stock": "1151",
+        "caracteristicas": [
+            "Recomendado para gato adulto",
+            "Bolsa de 7.5 kg de alimento seco fácil de almacenar", 
+            "Delicioso sabor a pollo y arroz que encantará a tu gato",
+            "Fabricado por Purina, marca de confianza"
+        ]
+    },
+    {
+        "id": 30,
+        "imagen": "../imagenes/stock de productos/alimentos/esterilizado.jpg",
+        "descripcion": "Excelent Sterilized alimento para gato adulto sabor pollo y arroz de 7.5 kg.",
+        "precio": "$ 7.800",
+        "stock": "2226",
+        "caracteristicas": [
+            "Recomendado para gato adulto esterilizado",
+            "Bolsa de 7.5 kg de alimento seco fácil de almacenar", 
+            "Delicioso sabor a pollo y arroz que encantará a tu gato",
+            "Fabricado por Purina, marca de confianza"
+        ]
+    },
+    {
+        "id": 31,
+        "imagen": "../imagenes/stock de productos/alimentos/puppy.jpg",
+        "descripcion": "Excelent Puppy alimento para perro cachorro sabor pollo y arroz de 3 kg.",
+        "precio": "$ 13.600",
+        "stock": "3213",
+        "caracteristicas": [
+            "Recomendado para perro cachorro",
+            "Bolsa de 3 kg de alimento seco fácil de almacenar", 
+            "Delicioso sabor a pollo y arroz que encantará a tu perro",
+            "Fabricado por Purina, marca de confianza"
+        ]
+    },
+    {
+        "id": 32,
+        "imagen": "../imagenes/stock de productos/alimentos/puppy.jpg",
+        "descripcion": "Excelent Puppy alimento para perro cachorro sabor pollo y arroz de 15 kg.",
+        "precio": "$ 54.300",
+        "stock": "3127",
+        "caracteristicas": [
+            "Recomendado para perro cachorro",
+            "Bolsa de 15 kg de alimento seco fácil de almacenar", 
+            "Delicioso sabor a pollo y arroz que encantará a tu perro",
+            "Fabricado por Purina, marca de confianza"
+        ]
+    },
+    {
+        "id": 33,
+        "imagen": "../imagenes/stock de productos/alimentos/perro.jpg",
+        "descripcion": "Excelent Skin Care alimento para perro adulto sabor pollo y arroz de 3 kg.",
+        "precio": "$ 13.000",
+        "stock": "2000",
+        "caracteristicas": [
+            "Recomendado para perro adulto",
+            "Bolsa de 3 kg de alimento seco fácil de almacenar", 
+            "Delicioso sabor a pollo y arroz que encantará a tu perro",
+            "Fabricado por Purina, marca de confianza"
+        ]
+    },
+    {
+        "id": 34,
+        "imagen": "../imagenes/stock de productos/alimentos/perro.jpg",
+        "descripcion": "Excelent Skin Care alimento para perro adulto sabor pollo y arroz de 15 kg.",
+        "precio": "$ 44.300",
+        "stock": "3468",
+        "caracteristicas": [
+            "Recomendado para perro adulto",
+            "Bolsa de 15 kg de alimento seco fácil de almacenar", 
+            "Delicioso sabor a pollo y arroz que encantará a tu perro",
+            "Fabricado por Purina, marca de confianza"
+        ]
+    },
+    {
+        "id": 35,
+        "imagen": "../imagenes/stock de productos/alimentos/calorie.jpg",
+        "descripcion": "Excelent Reduced Calorie alimento para perro adulto sabor pollo y arroz de 15 kg.",
+        "precio": "$ 53.000",
+        "stock": "6997",
+        "caracteristicas": [
+            "Recomendado para perro adulto - Fórmula de calorías reducidas",
+            "Bolsa de 15 kg de alimento seco fácil de almacenar", 
+            "Delicioso sabor a pollo y arroz que encantará a tu perro",
+            "Fabricado por Purina, marca de confianza"
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 22,
+        "imagen": "../imagenes/stock de productos/juguetes/cañita.jpg",
+        "descripcion": "Juguete Para Gatos Cañita",
+        "precio": "$ 3.500",
+        "stock": "4123",
+        "caracteristicas": [
+            "Varilla de plástico (15 cm) + Alambre de acero recubierto (80 cm) + juguete (15 cm)",
+            "Cañita larga de 1,10mts", 
+            "Tiene tiras y cascabel"
+        ]
+    },
+    {
+        "id": 23,
+        "imagen": "../imagenes/stock de productos/juguetes/raton.jpg",
+        "descripcion": "Juguete Para Gatos Ratón Plush De Cuerda",
+        "precio": "$ 3.500",
+        "stock": "4341",
+        "caracteristicas": [
+            "Tamaño: Largo 8cm / Alto 4cm",
+            "Material: Felpa", 
+            "No requiere baterías - Vibra al tirar de la cuerda"
+        ]
+    },
+    {
+        "id": 24,
+        "imagen": "../imagenes/stock de productos/juguetes/soga.jpg",
+        "descripcion": "Soga juguete para perros",
+        "precio": "$ 2.800",
+        "stock": "2353",
+        "caracteristicas": [
+            "Puro algodón 20 cm.",
+            "Favorece la limpieza e higiene de la dentadura de su mascota", 
+            "Disponibilidad de colores"
+        ]
+    },
+    {
+        "id": 25,
+        "imagen": "../imagenes/stock de productos/juguetes/pelota rugby.jpg",
+        "descripcion": "Juguete Pelota Rugby Resistente Mordillo Perros",
+        "precio": "$ 2.200",
+        "stock": "5423",
+        "caracteristicas": [
+            "Material: TPR",
+            "Medidas: Largo 9cm - Ancho 6cm", 
+            "Colores: Azul, Rosa y Amarillo"
+        ]
+    }
+]

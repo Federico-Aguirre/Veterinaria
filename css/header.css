@@ -1,0 +1,79 @@
+
+
+.header * {
+    transition: all 0.25s ease-in;
+  }
+  
+  .header {
+    height: 10vh;
+    width: 100%;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: hsl(171, 83%, 40%);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header__logoContenedor__logo {
+    height: 50px;
+    width: 100px;
+  }
+  
+  .header__navBar {
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+    padding: 5px 15px;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .header__navBar__line {
+    padding: 2px 15px;
+    background: hsl(171, 83%, 40%);
+    margin-top: -5px;
+    border-radius: 1.5em;
+    }
+  
+    .header__navBar__line:nth-of-type(2) {
+    padding: 2px 5px;
+    margin-left: 10px;
+    background: hsl(171, 83%, 40%);
+    margin-top: 5px;
+    border-radius: 1.5em;
+  }
+  
+  .header__carroDeCompra img, .header__perfil img {
+    height: 25px;
+    width: 25px;
+  }
+  
+  .header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .header nav ul li:not(:first-of-type):hover, button:hover{
+    transform: scale(1.2);
+  }
+
+  a {
+    color: hsl(171, 83%, 40%);
+    text-decoration: none;
+    font-family: sans-serif, serif, 'Times New Roman', Times;
+  }
+
+  a:active {
+    border: none;
+    outline-style: none;
+    text-decoration: none;
+  }

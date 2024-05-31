@@ -1,0 +1,146 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__heroe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        
+        &__imagenPrincipal {
+            height: 200px;
+            width: 300px;
+            margin-top: 20px;
+        }
+
+        &__texto {
+            margin: 20px 0;
+            width: 490px;
+            color: $verde;
+        }
+
+        button {
+            background: none;
+            color: inherit;
+            font: inherit;
+            cursor: pointer;
+            outline: inherit;
+
+            padding: 10px;
+            border: 2px solid $verde;
+            border-radius: 30px;
+        }
+
+        button:hover {
+            background-color: $verde;
+            color: $blanco;
+        }
+
+        &__solicitarTurno {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__servicios {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $verde;
+
+        &__titulo {
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        &__contenedor {
+            display: flex;
+            flex-direction: row;
+
+            &__imagenIzquierda, &__imagenDerecha {
+                height: 200px;
+                width: 150px;
+            }
+
+            &__listaDeServicios {
+                width: 400px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+
+                div {
+                    width: 190px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        height: 50px;
+                        width: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__direccion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__titulo {
+            color: $verde;
+            margin-bottom: 20px;
+        }
+
+        &__ubicacion, &__horario, &__telefono, &__whatsapp {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 20px;
+
+            img {
+                height: 25px;
+                width: 25px;
+            }
+        }
+
+        &__whatsapp {
+            margin-bottom: 0;
+        }
+
+        &__mapa {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__mediosDePago {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+
+        &__titulo {
+            color: $verde;
+            margin-bottom: 20px;
+        }
+
+        &__tarjetasContenedor {
+            display: flex;
+            flex-direction: row;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 150px;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+[
+    {
+        "id": 4,
+        "imagen": "../imagenes/stock de productos/otros/producto 4.jpg",
+        "descripcion": "Arena sanitaria para gatos Monkcat bentonita aglomerante 4kg por 5 bolsas",
+        "precio": "$ 13.000",
+        "stock": "1900",
+        "caracteristicas": [
+            "Unidades por pack: 5",
+            "Formato de venta: Pack",
+            "Biodegradable y aglomerante, facilita la limpieza y cuida el ambiente."
+        ]
+    },
+    {
+        "id": 5,
+        "imagen": "../imagenes/stock de productos/otros/producto 5.jpg",
+        "descripcion": "Piedra Rubicat Classic Arena Aglomerante Pack Ahorro 20kilos x 20kg de peso neto y 20kg de peso por unidad",
+        "precio": "$ 9.990",
+        "stock": "1399",
+        "caracteristicas": [
+            "Marca: Rubicat Classic",
+            "Formato de venta: Unidad",
+            "Peso neto: 20 kg",
+            "Peso de la unidad: 20 kg",
+            "Fragancia: Neutra"
+        ]
+    },
+    {
+        "id": 6,
+        "imagen": "../imagenes/stock de productos/otros/producto 6.jpg",
+        "descripcion": "Arena Aglomerante Para Gato Sanicat Strong Clumps 7 Kg",
+        "precio": "9.735,60",
+        "stock": "1399",
+        "caracteristicas": [
+            "Control de olores eficaz.",
+            "Peso neto: 7 kg",
+            "100% biodegradable."
+        ]
+    },
+    {
+        "id": 8,
+        "imagen": "../imagenes/stock de productos/otros/producto 8.jpg",
+        "descripcion": "Correa Extensible Perro 5 Metros 58 Kg Retractil Reforzada",
+        "precio": "$ 14.291",
+        "stock": "1909",
+        "caracteristicas": [
+            "Soporta hasta un máximo de 58kg.",
+            "El material de la correa es poliéster y el del mango es plástico.",
+            "Es extensible.",
+            "Con botón de frenado."
+        ]
+    }
+]

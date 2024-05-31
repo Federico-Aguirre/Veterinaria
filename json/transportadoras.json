@@ -1,0 +1,76 @@
+[
+    {
+        "id": 9,
+        "imagen": "../imagenes/stock de productos/transportadoras/producto 9.jpg",
+        "descripcion": "Transportadora Skudo 7 Iata Gigante 105x73x76",
+        "precio": "$ 380.547,30",
+        "stock": "1678",
+        "caracteristicas": [
+            "Tamaño del producto: Grande",
+            "Hecho de plástico.",
+            "Dimensiones: 73cm de ancho x 105cm de largo.",
+            "Soporta hasta 40kg.",
+            "Con ventilación."
+        ]
+    },
+    {
+        "id": 17,
+        "imagen": "../imagenes/stock de productos/transportadoras/bolso.jpg",
+        "descripcion": "Bolso transportador para mascotas",
+        "precio": "$ 14.000",
+        "stock": "1345",
+        "caracteristicas": [
+            "Bolso transportador mascotas con estructura",
+            "Medidas: 46 largo x 23 ancho x 28 alto", 
+            "La base es rígida desmontable forrada con tela impermeable"
+        ]
+    },
+    {
+        "id": 18,
+        "imagen": "../imagenes/stock de productos/transportadoras/gipsy.jpg",
+        "descripcion": "Transportadora Gipsy 46x31 puerta metálica",
+        "precio": "$ 33.000",
+        "stock": "2334",
+        "caracteristicas": [
+            "Hecho de plástico - Con ventilación",
+            "Dimensiones: 31cm de ancho x 46cm de largo.", 
+            "Soporta hasta 8kg - Es a prueba de agua"
+        ]
+    },
+    {
+        "id": 19,
+        "imagen": "../imagenes/stock de productos/transportadoras/voyageur.jpg",
+        "descripcion": "Transportadora Perro Gato Voyageur Grande",
+        "precio": "$ 74.100",
+        "stock": "4315",
+        "caracteristicas": [
+            "Dimensiones: 47cm de ancho x 68cm de largo.",
+            "Soporta hasta 10kg", 
+            "Con ventilación - Es a prueba de agua"
+        ]
+    },
+    {
+        "id": 20,
+        "imagen": "../imagenes/stock de productos/transportadoras/mochila.jpg",
+        "descripcion": "Mochila transportadora mascotas",
+        "precio": "$ 39.900",
+        "stock": "5164",
+        "caracteristicas": [
+            "Dimensiones: 47cm de ancho x 68cm de largo.",
+            "Soporta hasta 10kg", 
+            "Con ventilación - Es a prueba de agua"
+        ]
+    },
+    {
+        "id": 21,
+        "imagen": "../imagenes/stock de productos/transportadoras/skudo.jpg",
+        "descripcion": "Transportadora Skudo para perro grande",
+        "precio": "$ 233.000",
+        "stock": "3214",
+        "caracteristicas": [
+            "Dimensiones: 63cm de ancho x 92cm de largo",
+            "Soporta hasta 40kg - Pesa 9kg.", 
+            "Con ventilación - Es apto para cabinas de avión"
+        ]
+    }
+]

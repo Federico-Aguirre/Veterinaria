@@ -1,0 +1,25 @@
+.navBarMenu {
+    height: 0;
+    width: 0;
+    top: 10vh;
+    right: -20em;
+    position: fixed;
+    background-color: $verde;
+    animation: none;
+    z-index: 9999;
+    display: grid;
+    place-items: center;
+
+    * {
+        color: $blanco;
+    }
+}
+
+.closeNavBarMenu {
+    animation: closingNavBarMenu 1s forwards;
+}
+
+.navScrolled {
+    color: $celeste;
+    border-bottom: 4px solid $celeste;
+}

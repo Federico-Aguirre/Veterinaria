@@ -1,0 +1,36 @@
+.logIn {
+    height: 100vh;
+    display: grid;
+    place-content: start center;
+
+    &__formulario  {
+        margin-top: 30px;
+        width: 400px;
+        background-color: $blanco;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        &__titulo {
+            width: 100%;
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        label {
+            width: 90%;
+        }
+
+        input {
+            width: 90%;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            width: 70px;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.header * {
+    transition: $transitionDelay;
+}
+
+.header {
+    height: 10vh;
+    width: 100%;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: $verde;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: $blanco;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__carroDeCompra img, &__perfil img {
+        height: 25px;
+        width: 25px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+        li:not(:first-of-type):hover, button:hover{
+            transform: $escaladoGrande;
+        }
+    }
+
+    &__logoContenedor__logo {
+        height: 50px;
+        width: 100px;
+    }
+
+    &__navBar {
+            display: grid;
+            place-content: center;
+            cursor: pointer;
+            padding: 5px 15px;
+            border: none;
+            background-color: transparent;
+        
+            &__line {
+            padding: 2px 15px;
+            background: $verde;
+            margin-top: -5px;
+            border-radius: 1.5em;
+            }
+        
+            &__line:nth-of-type(2) {
+            padding: 2px 5px;
+            margin-left: 10px;
+            background: $verde;
+            margin-top: 5px;
+            border-radius: 1.5em;
+        }
+    }
+}

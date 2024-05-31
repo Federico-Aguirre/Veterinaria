@@ -1,0 +1,74 @@
+[
+    {
+        "id": 11,
+        "imagen": "../imagenes/stock de productos/camas/cucha gato.jpg",
+        "descripcion": "Cucha para gato redondo chico",
+        "precio": "$ 8.300",
+        "stock": "3333",
+        "caracteristicas": [
+            "Relleno de copos de goma espuma de gran densidad",
+            "Largo x Ancho x Altura: 44 cm x 44 cm x 17 cm", 
+            "Material: Gabardina y vellon"
+        ]
+    },
+    {
+        "id": 12,
+        "imagen": "../imagenes/stock de productos/camas/camagato.jpg",
+        "descripcion": "Cama para gato cueva grande",
+        "precio": "$ 18.500",
+        "stock": "5553",
+        "caracteristicas": [
+            "Fácil de limpiar",
+            "Ancho x Altura: 55 cm x 40 cm", 
+            "Material: Plush cálido"
+        ]
+    },
+    {
+        "id": 13,
+        "imagen": "../imagenes/stock de productos/camas/nido gato.jpg",
+        "descripcion": "Cama para gato moises nido",
+        "precio": "$ 28.800",
+        "stock": "3476",
+        "caracteristicas": [
+            "Fácil limpieza: es apto para lavarropas",
+            "Largo x Ancho x Altura: 55 cm x 55 cm x 15 cm", 
+            "Material: Poliester y vellon siliconado"
+        ]
+    },
+    {
+        "id": 14,
+        "imagen": "../imagenes/stock de productos/camas/cama perro.jpg",
+        "descripcion": "Cama para perro colchoneta",
+        "precio": "$ 15.900",
+        "stock": "5521",
+        "caracteristicas": [
+            "Doble costura, reforzada en toda su confección",
+            "Tamaño: 90x70", 
+            "Material: Poliester y vellon siliconado"
+        ]
+    },
+    {
+        "id": 15,
+        "imagen": "../imagenes/stock de productos/camas/moises perro.jpg",
+        "descripcion": "Cama moises para perro plush suave",
+        "precio": "$ 14.500",
+        "stock": "3214",
+        "caracteristicas": [
+            "Fácil limpieza: es apto para lavarropas",
+            "Largo x Ancho x Altura: 55 cm x 55 cm x 15 cm", 
+            "Material: Poliester y vellon siliconado"
+        ]
+    },
+    {
+        "id": 16,
+        "imagen": "../imagenes/stock de productos/camas/alaska.jpg",
+        "descripcion": "Moises para perro Alaska",
+        "precio": "$ 28.100",
+        "stock": "1414",
+        "caracteristicas": [
+            "Fácil limpieza: es apto para lavarropas",
+            "Largo x Ancho x Altura: 55 cm x 55 cm x 15 cm", 
+            "Material: Poliester y vellon siliconado"
+        ]
+    }
+]

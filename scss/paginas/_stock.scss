@@ -1,0 +1,62 @@
+.stock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__filtro {
+        margin: 20px 0;
+        text-align: center;
+
+        &__texto {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__tarjeta__contenedor {
+        height: auto;
+        width: 600px;
+        margin: 7.5px 0;
+        background-color: $blanco;
+        display: grid;
+        grid-template-rows: 40px 25px 25px auto 25px;
+        grid-template-columns: 200px 400px;
+
+        &__imagen {
+            grid-column: 1;
+            grid-row: 1/-1;
+            place-self: center;
+            height: 200px;
+            width: 130px;
+        }
+
+        &__descripcion {
+            grid-column: 2;
+            grid-row: 1;
+            overflow-y: hidden;
+        }
+
+        &__precio {
+            grid-column: 2;
+            grid-row: 2;
+            font-weight: bold;
+        }
+
+        &__stock
+
+        ul {
+            list-style: disc;
+            overflow-y: hidden;
+
+            .stock__tarjeta__contenedor__caracteristicas {
+                grid-column: 2;
+                grid-row: 3/-2;
+                margin-left: 17px;
+            }
+        }
+
+        button {
+            grid-row: -1;
+            grid-column: 2;
+        }
+    }
+}

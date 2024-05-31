@@ -1,0 +1,25 @@
+.navBarMenu {
+    height: 0;
+    width: 0;
+    top: 10vh;
+    right: -20em;
+    position: fixed;
+    background-color: hsl(171, 83%, 40%);
+    animation: none;
+    z-index: 9999;
+    display: grid;
+    place-items: center;
+
+    * {
+        color: hsl(0, 0%, 100%);
+    }
+}
+
+.closeNavBarMenu {
+    animation: closingNavBarMenu 1s forwards;
+}
+
+.navScrolled {
+    color: hsl(194, 85%, 62%);
+    border-bottom: 4px solid hsl(194, 85%, 62%);
+}
